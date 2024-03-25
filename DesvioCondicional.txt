@@ -1,0 +1,35 @@
+Valor lógico 
+Pode ser verdadeiro ou falso
+É o resultado obtido ao se fazer alguma comparação numérica ou textual.
+É do tipo logico
+Ex.:
+logico acesso=verdadeiro
+
+Operadores relacionais
+São símbolos usados para comparar valores numéricos. O resultado da comparação é um valor lógico.
+> Maior
+>= Maior do que ou igual a / Maior ou igual
+< Menor
+<= Menor ou igual
+== Igual
+!= Diferente
+Exemplo
+10>=5 Resulta em verdadeiro
+
+Operadores lógicos
+Permitem associar uma ou mais operações lógicas
+e - Todas as operações devem ser verdadeiras para que o resultado final seja verdadeiro
+ou - Pelo menos uma operação deve ser verdadeira para que o resultado final seja verdadeiro
+nao - Inverte o valor lógico.
+
+Estrutura condicional se
+Estrutura condicional simples
+ Bloco se: Verifica se a operação lógica é verdadeira
+ Bloco senao: Apenas será executado se a operação lógica for falsa. 
+ É opcional em alguns casos.
+se (operação lógica){
+//Operações para verdadeiro
+}
+senao{
+//Operações para falso
+}
